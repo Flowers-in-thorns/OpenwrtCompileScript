@@ -848,6 +848,8 @@ source_download_openwrt() {
 		echo ""
 		echo "	6.openwrt(Trunk)_source"
 		echo ""
+		echo "	7.openwrt-18.06 by leojo(Trunk)_source"
+		echo ""
 		echo "	0.exit"
 		echo ""
 		echo ""
@@ -871,6 +873,9 @@ source_download_openwrt() {
 				;;
 				6)
 				git clone  https://github.com/openwrt/openwrt.git lede
+				;;
+				7)
+				git clone  https://github.com/Ameykyl/openwrt18.06
 				;;
 				0)
 				exit
